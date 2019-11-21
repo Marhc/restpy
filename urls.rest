@@ -1,0 +1,29 @@
+// Index
+GET http://localhost:5000/api/users
+###
+
+// Store
+POST http://localhost:5000/api/users HTTP/1.1
+
+{
+  "name": "John Doe",
+  "email": "john.doe@mail.com"
+}
+###
+
+// Show
+GET http://localhost:5000/api/users/1
+###
+
+// Update
+PUT http://localhost:5000/api/users/2 HTTP/1.1
+
+{
+  "name": "John Doe Smith",
+  "email": "john.smith@mail.com"
+}
+###
+
+// Delete
+DELETE http://localhost:5000/api/users/3
+###
