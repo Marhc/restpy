@@ -21,4 +21,4 @@ class User(Base):
         }
 
 
-Base.metadata.create_all(engine)
+Base.metadata.tables[User.__tablename__].create(bind=engine, checkfirst=True)
