@@ -1,11 +1,16 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from os import path
+from os import path, makedirs
 
 
 def root_dir():
     return path.dirname(path.dirname(__file__))
+
+
+def check_path(directory):
+    if not path.exists(directory):
+        makedirs(directory)
 
 
 def strip_slash(text):
@@ -14,10 +19,18 @@ def strip_slash(text):
     return firstChar + moreChars
 
 
-database_path = path.join(root_dir(), 'database', 'db.sqlite')
+db_provider = 'sqlite:////'
+db_folder = 'database'
+db_file = 'db.sqlite'
 
-database_uri = 'sqlite:////' + strip_slash(database_path)
+db_dir = path.join(root_dir(), db_folder)
 
-engine = create_engine(database_uri)
+check_path(db_dir)
+
+db_path = path.join(db_dir, db_file)
+
+db_uri = db_provider + strip_slash(db_path)
+
+engine = create_engine(db_uri)
 
 session_factory = sessionmaker(bind=engine)
