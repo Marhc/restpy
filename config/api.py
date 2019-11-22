@@ -1,5 +1,6 @@
-from resources import user
 from flask_restful import Api
+
+from resources import user
 
 api = Api(prefix="/api")
 

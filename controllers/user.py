@@ -1,5 +1,6 @@
 from flask import abort, jsonify
 from flask_sqlalchemy_session import current_session
+
 from models.user import User
 
 
