@@ -12,11 +12,11 @@ Antes de começar, você precisa instalar em seu sistema:
 - [pipenv](https://packaging.python.org/tutorials/managing-dependencies)
 - [Visual Studio Code](https://code.visualstudio.com/download) (**VSCode**), mas somente no ambiente de desenvolvimento.
 
-No ambiente de desenvolvimento, recomendamos instalar também a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) no **VSCode**.
+No ambiente de desenvolvimento, também recomendamos instalar no **VSCode** a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
-Use o **_REST Client_** para testar os **_endpoints_** listados no arquivo **_urls.rest_**.
+Use o **_REST Client_** para testar os endereços relacionados no arquivo **_urls.rest_**.
 
-Mas se preferir, você pode utilizar qualquer cliente como [Postman](https://www.getpostman.com), [Insomnia](https://insomnia.rest/download), [httpie](https://httpie.org/doc#installation) ou simplesmente o comando **_curl_**.
+Mas se preferir, você pode utilizar qualquer cliente como [Postman](https://www.getpostman.com), [Insomnia](https://insomnia.rest/download), [httpie](https://httpie.org/doc#installation) ou simplesmente o comando **_curl_** para testar a Api.
 
 ## Instalação
 
@@ -88,13 +88,13 @@ O objetivo inicial do projeto foi apenas exercitar os conceitos básicos envolvi
 
 Alguns recursos adicionais estão previstos para versões futuras, tais como:
 
-- Criar modelo de base com os atributos comuns a todos os modelos e habilitar **_timestamping_**
+- Criar modelo base com os atributos comuns a todos os modelos e habilitar **_timestamp_**
 
 - Reconstruir a classe **_Controller_** para facilitar a criação de novos **_controllers_** a partir de um modelo qualquer
 
 - Criar a classe **_ResourceSet_** para facilitar a criação de novos **_resources_**
 
-Sinta-se a vontade para contribuir com esses e outros recursos que considerar importantes. Faça um **_fork_** do projeto e submeta um **_Pool Request_** da sua contribuição.
+Sinta-se a vontade para contribuir com esses ou algum outro recurso que considerar importante. Você só precisa fazer um **_fork_** do projeto e submeter um **_Pool Request_** da sua contribuição.
 
 ## Licença
 
@@ -114,7 +114,7 @@ Para qualquer uso ou redistribuição do projeto, ou trabalhos produzidos a part
 
 Este texto não é uma licença em si e seu conteúdo não faz parte da licença real.
 
-Leia atentamente a licença completa [MIT](https://choosealicense.com/licenses/mit) para obter os termos exatos que se aplicam.
+Leia atentamente a licença completa [MIT](https://choosealicense.com/licenses/mit) para saber os termos exatos que se aplicam.
 
 ## Direitos Autorais
 
