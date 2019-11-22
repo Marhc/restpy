@@ -13,10 +13,7 @@ class Controller(object):
 
     @staticmethod
     def create(data):
-        new_user = User(
-            name=data["name"],
-            email=data["email"]
-        )
+        new_user = User(**data)
         current_session.add(new_user)
         current_session.commit()
         return jsonify(**new_user.to_dict())
