@@ -65,7 +65,7 @@ echo FLASK_APP=app.py >> .env
 
 Com o arquivo **_.env_** podemos gerenciar as variáveis de ambiente utilizadas pela aplicação.
 
-Depois, inicie a Api em modo de desenvolvimento com o comando:
+Agora, inicie a Api em modo de desenvolvimento com o comando:
 
 ```
 pipenv run dev
@@ -82,9 +82,7 @@ Recursos não incluídos:
 - _Query String parsing_
 - Registro das Migrações da base de dados
 
-O objetivo inicial do projeto foi apenas exercitar os conceitos básicos envolvidos na criação de uma Api simples, porém escalável.
-
-Portanto, **_NÃO USE ESSA API EM PRODUÇÃO_**.
+O objetivo inicial do projeto foi apenas exercitar os conceitos básicos envolvidos na criação de uma Api simples, porém escalável. Portanto, **_NÃO USE ESSA API EM PRODUÇÃO_**.
 
 ## Lançamentos futuros
 
