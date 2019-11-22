@@ -12,7 +12,11 @@ Antes de começar, você precisa instalar em seu sistema:
 - [pipenv](https://packaging.python.org/tutorials/managing-dependencies)
 - [Visual Studio Code](https://code.visualstudio.com/download) (**VSCode**), mas somente no ambiente de desenvolvimento.
 
-No ambiente de desenvolvimento, recomendamos instalar também a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) no **VSCode**, para testar os **_endpoints_** da Api usando o arquivo **_urls.rest_**. Mas se preferir, você pode utilizar qualquer cliente como Postman, Insomnia, httpie ou simplesmente o comando **_curl_**.
+No ambiente de desenvolvimento, recomendamos instalar também a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) no **VSCode**.
+
+Use o **_REST Client_** para testar os **_endpoints_** listados no arquivo **_urls.rest_**.
+
+Mas se preferir, você pode utilizar qualquer cliente como [Postman](https://www.getpostman.com), [Insomnia](https://insomnia.rest/download), [httpie](https://httpie.org/doc#installation) ou simplesmente o comando **_curl_**.
 
 ## Instalação
 
@@ -92,9 +96,7 @@ Alguns recursos adicionais estão previstos para versões futuras, tais como:
 
 - Criar a classe **_ResourceSet_** para facilitar a criação de novos **_resources_**
 
-Sinta-se a vontade para contribuir com esses e outros recursos que considerar importantes.
-
-Faça um **_fork_** do projeto e submeta um **_Pool Request_** da sua contribuição.
+Sinta-se a vontade para contribuir com esses e outros recursos que considerar importantes. Faça um **_fork_** do projeto e submeta um **_Pool Request_** da sua contribuição.
 
 ## Licença
 
