@@ -88,11 +88,11 @@ O objetivo inicial do projeto foi apenas exercitar os conceitos básicos envolvi
 
 Alguns recursos adicionais estão previstos para versões futuras, tais como:
 
-- Criar modelo base com os atributos comuns a todos os modelos e habilitar **_timestamp_**
+- [ ] Criar modelo base com os atributos comuns a todos os modelos e habilitar **_timestamp_**
 
-- Reconstruir a classe **_Controller_** para facilitar a criação de novos **_controllers_** a partir de um modelo qualquer
+- [ ] Reconstruir a classe **_Controller_** para facilitar a criação de novos **_controllers_** a partir de um modelo qualquer
 
-- Criar a classe **_ResourceSet_** para facilitar a criação de novos **_resources_**
+- [ ] Criar a classe **_ResourceSet_** para facilitar a criação de novos **_resources_**
 
 Sinta-se a vontade para contribuir com esses ou algum outro recurso que considerar importante. Você só precisa fazer um **_fork_** do projeto e submeter um **_Pool Request_** da sua contribuição.
 
