@@ -1,13 +1,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from helpers import get_db_uri
+from helpers import get_sqlite_uri
 
-db_provider = 'sqlite:////'
-db_folder = 'database'
-db_file = 'db.sqlite'
-
-db_uri = get_db_uri(db_provider, db_folder, db_file)
+db_uri = get_sqlite_uri(
+    folder='database',
+    file='db.sqlite')
 
 engine = create_engine(db_uri)
 
