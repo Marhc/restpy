@@ -8,11 +8,11 @@ Antes de começar, você precisa instalar em seu sistema:
 
 - [Git](https://git-scm.com/downloads)
 - [Python 3.6](https://www.python.org/downloads)
-- [pip](https://pip.pypa.io/en/stable/installing)
+- [pip](https://pip.pypa.io/en/stable/installing) (geralmente, já incluído na instalação do Python)
 - [pipenv](https://packaging.python.org/tutorials/managing-dependencies)
 - [Visual Studio Code](https://code.visualstudio.com/download) (**VSCode**), mas somente no ambiente de desenvolvimento.
 
-No ambiente de desenvolvimento, também recomendamos instalar no **VSCode** a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+No ambiente de desenvolvimento, também recomendamos instalar, no **VSCode**, a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
 Use o **_REST Client_** para testar os endereços relacionados no arquivo **_urls.rest_**.
 
@@ -73,20 +73,20 @@ pipenv run dev
 
 ## Advertência
 
-Esse é apenas um projeto de exemplo e muitos recursos necessários para o funcionamento em produção não foram incluídos na aplicação.
-
-Recursos não incluídos:
+Esse é apenas um projeto de exemplo e muitos recursos necessários para o funcionamento em produção **_NÃO_** foram incluídos, tais como:
 
 - Validação
 - Autenticação
 - _Query String parsing_
-- Registro das Migrações da base de dados
+- Registro de Migrações da base de dados
 
-O objetivo inicial do projeto foi apenas exercitar os conceitos básicos envolvidos na criação de uma Api simples, porém escalável. Portanto, **_NÃO USE ESSA API EM PRODUÇÃO_**.
+Portanto, **_NÃO USE ESSA API EM PRODUÇÃO_**.
+
+O objetivo inicial do projeto foi apenas exercitar os conceitos básicos envolvidos na criação de uma Api simples, porém escalável.
 
 ## Lançamentos futuros
 
-Alguns recursos adicionais estão previstos para versões futuras, tais como:
+Algumas funcionalidades são previstas para versões futuras:
 
 - [ ] Criar modelo base com os atributos comuns a todos os modelos e habilitar **_timestamp_**
 
@@ -94,7 +94,7 @@ Alguns recursos adicionais estão previstos para versões futuras, tais como:
 
 - [ ] Criar a classe **_ResourceSet_** para facilitar a criação de novos **_resources_**
 
-Sinta-se a vontade para contribuir com esses ou algum outro recurso que considerar importante. Você só precisa fazer um **_fork_** do projeto e submeter um **_Pool Request_** da sua contribuição.
+Sinta-se a vontade para contribuir com esses recursos ou alguma outra funcionalidade que considerar importante. Você só precisa fazer um **_fork_** do projeto e enviar um **_Pool Request_** da sua contribuição.
 
 ## Licença
 
@@ -106,11 +106,11 @@ Esse projeto está licenciado sob a licença [MIT](https://choosealicense.com/li
 
 Desde que:
 
-- **Atribua a fonte**: você deve atribuir qualquer uso público do projeto ou trabalhos produzidos a partir do projeto, usando um link semelhante a esse:
+- **Atribua a fonte**: você deve fazer a atribuição em qualquer uso público do projeto ou trabalhos produzidos a partir do projeto, usando um link de retorno semelhante a este:
 
-  "Construído com Restpy: https://github.com/Marhc/restpy".
+  "Restpy: https://github.com/Marhc/restpy".
 
-Para qualquer uso ou redistribuição do projeto, ou trabalhos produzidos a partir dele, você deve deixar claro qual foi a licença utilizada e manter intactos os avisos originais.
+Para qualquer uso ou redistribuição do projeto, ou trabalhos produzidos a partir dele, você deve deixar bem claro qual foi a licença utilizada e manter intactos os avisos originais.
 
 Este texto não é uma licença em si e seu conteúdo não faz parte da licença real.
 
